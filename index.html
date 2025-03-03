@@ -60,7 +60,7 @@
           </svg>
         </button>
       </div>
-      <div class="mobile-menu is-open">
+      <div class="mobile-menu">
         <div class="container mobile-menue-container">
           <button type="button" class="mobile-menu-close">
             <svg width="8" height="8" class="modal-icon-close">
@@ -79,17 +79,17 @@
                   >Portfolio</a
                 >
               </li>
-              <li class="mobile-menu-nav-list-item">Contacts</li>
+              <li><a href="" class="mobile-menu-nav-list-item">Contacts</a></li>
             </ul>
           </nav>
           <ul class="mobile-menu-adress">
             <li>
-              <a href="tel:+110001111111" class="address-item"
+              <a href="tel:+110001111111" class="mobile-address-item"
                 >+11 (000) 111-11-11</a
               >
             </li>
             <li>
-              <a href="mailto:info@devstudio.com" class="address-item"
+              <a href="mailto:info@devstudio.com" class="mobile-address-item"
                 >info@devstudio.com</a
               >
             </li>
@@ -140,7 +140,7 @@
       </div>
     </header>
     <main>
-      <section class="main-section hidden">
+      <section class="main-section">
         <div class="container">
           <h1 class="main-section-text">
             Effective Solutions for Your Business
@@ -151,7 +151,7 @@
         </div>
       </section>
       <!--Second section-->
-      <section class="second-section hidden">
+      <section class="second-section">
         <div class="container">
           <h2 class="visually-hidden">Our benefits</h2>
           <ul class="second-section-list">
@@ -189,8 +189,8 @@
               </div>
               <h3 class="second-section-header">Diligence</h3>
               <p class="second-section-text">
-                Research and confirm brands that present the strongest digital
-                growth opportunities and minimize risk.
+                Research and confirm brands with the strongest digital growth
+                opportunities and minimize risk.
               </p>
             </li>
 
@@ -210,17 +210,18 @@
         </div>
       </section>
       <!--End second section-->
-      <section class="team-section hidden">
+      <section class="team-section">
         <div class="container">
           <h2 class="team-section-header">Our Team</h2>
           <ul class="team-section-list">
             <li class="team-section-item">
               <img
+                srcset="./images/photo-1.jpg 1x, ./images/photo-1@2x.jpg 2x"
                 src="./images/photo-1.jpg"
                 alt="Mark Guerrero"
                 class="team-image"
               />
-              <div class="team-section-item-text">
+              <div>
                 <h3 class="team-section-name">Mark Guerrero</h3>
                 <p class="team-section-title">Product Designer</p>
                 <ul class="team-sosial-media-list">
@@ -228,6 +229,7 @@
                     <a
                       href="https://www.instagram.com/"
                       class="team-sosial-media-list-link"
+                      target="_blank"
                     >
                       <svg width="16" height="16" class="team-icon">
                         <use href="./images/icons.svg#icon-instagram"></use>
@@ -238,6 +240,7 @@
                     <a
                       href="https://twitter.com"
                       class="team-sosial-media-list-link"
+                      target="_blank"
                     >
                       <svg width="16" height="16" class="team-icon">
                         <use href="./images/icons.svg#icon-twitter"></use>
@@ -248,6 +251,7 @@
                     <a
                       href="https://facebook.com/"
                       class="team-sosial-media-list-link"
+                      target="_blank"
                     >
                       <svg width="16" height="16" class="team-icon">
                         <use href="./images/icons.svg#icon-facebook"></use>
@@ -258,6 +262,7 @@
                     <a
                       href="https://www.linkedin.com/"
                       class="team-sosial-media-list-link"
+                      target="_blank"
                     >
                       <svg width="16" height="16" class="team-icon">
                         <use href="./images/icons.svg#icon-linkedin"></use>
@@ -269,11 +274,12 @@
             </li>
             <li class="team-section-item">
               <img
+                srcset="./images/photo-2.jpg 1x, ./images/photo-2@2x.jpg 2x"
                 src="./images/photo-2.jpg"
                 alt="Tom Ford"
                 class="team-image"
               />
-              <div class="team-section-item-text">
+              <div>
                 <h3 class="team-section-name">Tom Ford</h3>
                 <p class="team-section-title">Frontend Developer</p>
                 <ul class="team-sosial-media-list">
@@ -281,6 +287,7 @@
                     <a
                       href="https://www.instagram.com/"
                       class="team-sosial-media-list-link"
+                      target="_blank"
                     >
                       <svg width="16" height="16" class="team-icon">
                         <use href="./images/icons.svg#icon-instagram"></use>
@@ -291,6 +298,7 @@
                     <a
                       href="https://twitter.com"
                       class="team-sosial-media-list-link"
+                      target="_blank"
                       ><svg width="16" height="16" class="team-icon">
                         <use href="./images/icons.svg#icon-twitter"></use>
                       </svg>
@@ -300,6 +308,7 @@
                     <a
                       href="https://facebook.com/"
                       class="team-sosial-media-list-link"
+                      target="_blank"
                     >
                       <svg width="16" height="16" class="team-icon">
                         <use href="./images/icons.svg#icon-facebook"></use>
@@ -310,6 +319,7 @@
                     <a
                       href="https://www.linkedin.com/"
                       class="team-sosial-media-list-link"
+                      target="_blank"
                     >
                       <svg width="16" height="16" class="team-icon">
                         <use href="./images/icons.svg#icon-linkedin"></use>
@@ -321,11 +331,12 @@
             </li>
             <li class="team-section-item">
               <img
+                srcset="./images/photo-3.jpg 1x, ./images/photo-3@2x.jpg 2x"
                 src="./images/photo-3.jpg"
                 alt="Camila Garcia"
                 class="team-image"
               />
-              <div class="team-section-item-text">
+              <div>
                 <h3 class="team-section-name">Camila Garcia</h3>
                 <p class="team-section-title">Marketing</p>
                 <ul class="team-sosial-media-list">
@@ -333,6 +344,7 @@
                     <a
                       href="https://www.instagram.com/"
                       class="team-sosial-media-list-link"
+                      target="_blank"
                     >
                       <svg width="16" height="16" class="team-icon">
                         <use href="./images/icons.svg#icon-instagram"></use>
@@ -343,6 +355,7 @@
                     <a
                       href="https://twitter.com"
                       class="team-sosial-media-list-link"
+                      target="_blank"
                     >
                       <svg width="16" height="16" class="team-icon">
                         <use href="./images/icons.svg#icon-twitter"></use>
@@ -362,6 +375,7 @@
                     <a
                       href="https://www.linkedin.com/"
                       class="team-sosial-media-list-link"
+                      target="_blank"
                     >
                       <svg width="16" height="16" class="team-icon">
                         <use href="./images/icons.svg#icon-linkedin"></use>
@@ -373,11 +387,12 @@
             </li>
             <li class="team-section-item">
               <img
+                srcset="./images/photo-4.jpg 1x, ./images/photo-4@2x.jpg 2x"
                 src="./images/photo-4.jpg"
                 alt="Daniel Wilson"
                 class="team-image"
               />
-              <div class="team-section-item-text">
+              <div>
                 <h3 class="team-section-name">Daniel Wilson</h3>
                 <p class="team-section-title">UI Designer</p>
                 <ul class="team-sosial-media-list">
@@ -385,6 +400,7 @@
                     <a
                       href="https://www.instagram.com/"
                       class="team-sosial-media-list-link"
+                      target="_blank"
                     >
                       <svg width="16" height="16" class="team-icon">
                         <use href="./images/icons.svg#icon-instagram"></use>
@@ -395,6 +411,7 @@
                     <a
                       href="https://twitter.com"
                       class="team-sosial-media-list-link"
+                      target="_blank"
                     >
                       <svg width="16" height="16" class="team-icon">
                         <use href="./images/icons.svg#icon-twitter"></use>
@@ -405,6 +422,7 @@
                     <a
                       href="https://facebook.com/"
                       class="team-sosial-media-list-link"
+                      target="_blank"
                     >
                       <svg width="16" height="16" class="team-icon">
                         <use href="./images/icons.svg#icon-facebook"></use>
@@ -415,6 +433,7 @@
                     <a
                       href="https://www.linkedin.com/"
                       class="team-sosial-media-list-link"
+                      target="_blank"
                     >
                       <svg width="16" height="16" class="team-icon">
                         <use href="./images/icons.svg#icon-linkedin"></use>
