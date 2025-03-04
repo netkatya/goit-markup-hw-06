@@ -18,6 +18,7 @@
       referrerpolicy="no-referrer"
     />
     <link rel="stylesheet" href="./css/style.css" />
+    <script src="script.js"></script>
   </head>
   <body>
     <header class="page-header">
@@ -145,7 +146,11 @@
           <h1 class="main-section-text">
             Effective Solutions for Your Business
           </h1>
-          <button type="button" class="main-section-button">
+          <button
+            type="button"
+            class="main-section-button"
+            id="orderServiceButton"
+          >
             Order Service
           </button>
         </div>
@@ -216,8 +221,8 @@
           <ul class="team-section-list">
             <li class="team-section-item">
               <img
-                srcset="./images/photo-1.jpg 1x, ./images/photo-1@2x.jpg 2x"
-                src="./images/photo-1.jpg"
+                srcset="./images/mark.jpg 1x, ./images/mark@2x.jpg 2x"
+                src="./images/mark.jpg"
                 alt="Mark Guerrero"
                 class="team-image"
               />
@@ -274,8 +279,8 @@
             </li>
             <li class="team-section-item">
               <img
-                srcset="./images/photo-2.jpg 1x, ./images/photo-2@2x.jpg 2x"
-                src="./images/photo-2.jpg"
+                srcset="./images/tom.jpg 1x, ./images/tom@2x.jpg 2x"
+                src="./images/tom.jpg"
                 alt="Tom Ford"
                 class="team-image"
               />
@@ -331,8 +336,8 @@
             </li>
             <li class="team-section-item">
               <img
-                srcset="./images/photo-3.jpg 1x, ./images/photo-3@2x.jpg 2x"
-                src="./images/photo-3.jpg"
+                srcset="./images/camila.jpg 1x, ./images/camila@2x.jpg 2x"
+                src="./images/camila.jpg"
                 alt="Camila Garcia"
                 class="team-image"
               />
@@ -387,8 +392,8 @@
             </li>
             <li class="team-section-item">
               <img
-                srcset="./images/photo-4.jpg 1x, ./images/photo-4@2x.jpg 2x"
-                src="./images/photo-4.jpg"
+                srcset="./images/daniel.jpg 1x, ./images/daniel@2x.jpg 2x"
+                src="./images/daniel.jpg"
                 alt="Daniel Wilson"
                 class="team-image"
               />
@@ -454,6 +459,7 @@
             <li class="portfolio-section-list-item">
               <div class="box">
                 <img
+                  srcset="./images/portfolio1.jpg, ./images/portfolio1@2x.jpg"
                   src="./images/portfolio1.jpg"
                   alt="Banking App"
                   class="portfolio-image"
@@ -472,6 +478,7 @@
             <li class="portfolio-section-list-item">
               <div class="box">
                 <img
+                  srcset="./images/portfolio2.jpg, ./images/portfolio2@2x.jpg"
                   src="./images/portfolio2.jpg"
                   alt="Cashless Payment"
                   class="portfolio-image"
@@ -487,10 +494,10 @@
                 <p class="portfolio-cection-item-txt">Marketing</p>
               </div>
             </li>
-
             <li class="portfolio-section-list-item">
               <div class="box">
                 <img
+                  srcset="./images/portfolio3.jpg, ./images/portfolio3@2x.jpg"
                   src="./images/portfolio3.jpg"
                   alt="Meditation App"
                   class="portfolio-image"
@@ -510,6 +517,7 @@
             <li class="portfolio-section-list-item">
               <div class="box">
                 <img
+                  srcset="./images/portfolio4.jpg, ./images/portfolio4@2x.jpg"
                   src="./images/portfolio4.jpg"
                   alt="Taxi Service"
                   class="portfolio-image"
@@ -529,6 +537,7 @@
             <li class="portfolio-section-list-item">
               <div class="box">
                 <img
+                  srcset="./images/portfolio5.jpg, ./images/portfolio5@2x.jpg"
                   src="./images/portfolio5.jpg"
                   alt="Screen Illustrations"
                   class="portfolio-image"
@@ -550,6 +559,7 @@
             <li class="portfolio-section-list-item">
               <div class="box">
                 <img
+                  srcset="./images/portfolio6.jpg, ./images/portfolio6@2x.jpg"
                   src="./images/portfolio6.jpg"
                   alt="Online Courses"
                   class="portfolio-image"
@@ -571,7 +581,7 @@
       </section>
     </main>
     <footer class="page-footer">
-      <div class="footer-container">
+      <div class="container footer-container">
         <div class="text-social-together">
           <div class="footer-text">
             <a href="./index.html" class="logo-footer"
@@ -639,7 +649,7 @@
       </div>
     </footer>
 
-    <div class="modal-overlay is-open">
+    <div class="modal-overlay">
       <div class="modal">
         <button type="button" class="modal-icon">
           <svg width="8" height="8" class="modal-icon-close">
