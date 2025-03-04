@@ -441,6 +441,13 @@ img {
     margin: 0 auto;
 }
 
+@media (min-resolution: 2x) {
+    .main-section {
+        background-image: linear-gradient(rgba(46, 47, 66, 70%), rgba(46, 47, 66, 70%)),
+        url(../images/people-office@2x.jpg);
+    }
+}
+
 .main-section-text {
     font-weight: 700;
     font-size: 36px;
@@ -497,7 +504,6 @@ img {
     .main-section {
         padding-top: 188px;
         padding-bottom: 188px;
-        background-image: linear-gradient(rgba(46, 47, 66, 70%), rgba(46, 47, 66, 70%)), url(../images/people-office@2x.jpg);
     }
 
     .main-section-text{
