@@ -1006,16 +1006,24 @@ img {
         padding-left: 108px;
     }
 
+    .logo-footer {
+        text-align: start;
+    }
 
     .text-social-together {
         display: flex;
-        margin-bottom: 72px;
     }
 
     .footer-text {
         max-width: 264px;
         margin-right: 24px;
+        margin-bottom: 0;
     }
+
+    .footer-sosial-media-title {
+        text-align: left;
+    }
+
 
     .title-footer-form {
         text-align: left;
