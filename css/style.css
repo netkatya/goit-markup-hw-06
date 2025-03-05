@@ -27,6 +27,7 @@ li {
 
 ul {
     padding: 0;
+    margin: 0;
 }
 
 a:hover,
@@ -187,6 +188,7 @@ img {
         transition-duration: 250ms;
         transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
         padding: 24px 0;
+        display: block;
         }
     
     .studio-item {
@@ -228,7 +230,19 @@ img {
         transition-property: color;
         transition-duration: 250ms;
         transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+        padding-top: 16px;
+        padding-bottom: 16px;
         }
+
+    .address-item:first-child {
+        padding-top: 16px;
+        padding-bottom: 6px;
+    }
+
+    .address-item:last-child {
+        padding-top: 6px;
+        padding-bottom: 16px;
+    }
 }
 
 @media screen and (min-width: 1158px) {
@@ -247,6 +261,16 @@ img {
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;
+    }
+
+    .address-item:first-child {
+        padding-top: 24px;
+        padding-bottom: 24px;
+    }
+    
+    .address-item:last-child {
+        padding-top: 24px;
+        padding-bottom: 24px;
     }
 
     .address-item:hover,
@@ -625,6 +649,7 @@ img {
 }
 
 .team-section-item {
+    background-color: #FFFFFF;
     width: 100%;
     padding: 0px 0px 32px 0px;
     box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
@@ -694,6 +719,11 @@ img {
 }
 
 @media screen and (min-width: 768px) {
+
+    .team-container {
+        padding-left: 108px;
+        padding-right: 108px;
+    }
     .team-section-list {
         display: flex;
         flex-wrap: wrap;
@@ -715,6 +745,11 @@ img {
     .team-section {
         padding-top: 120px;
         padding-bottom: 120px;
+    }
+
+    .team-container {
+        padding-left: 15px;
+        padding-right: 15px;
     }
 
     .team-section-list {
@@ -755,12 +790,6 @@ img {
     margin-bottom: 48px;
 }
 
-.portfolio-image {
-    width: auto;
-    height: 280px;
-    display: block;
-    object-fit: cover;
-}
 
 .portfolio-section-item-text-together {
     box-sizing: border-box;
@@ -992,8 +1021,7 @@ img {
 
 .sbc-button:hover,
 .sbc-button:focus {
-    background-color: #31d0aa;
-    border: #31d0aa;
+    background-color: #404BBF;;
 }
 
 .footer-button-picture {
